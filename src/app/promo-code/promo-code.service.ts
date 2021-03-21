@@ -27,7 +27,7 @@ export class PromoCodeService {
       result.push({
         id: i + 1,
         serviceName: this.generateRandomCode(7) + '.com',
-        description: this.generateRandomCode(20),
+        description: 'Some description',
         code: this.generateRandomCode(8),
         status: 'pending'
       } as PromoCode);
