@@ -1,5 +1,6 @@
 export interface PromoCode {
-  siteName: string,
+  id: number,
+  serviceName: string,
   description: string,
   code: string,
   status?: string

@@ -25,7 +25,8 @@ export class PromoCodeService {
     const result: Array<PromoCode> = [];
     for (let i = 0; i < params.count; i++) {
       result.push({
-        siteName: this.generateRandomCode(7) + '.com',
+        id: i + 1,
+        serviceName: this.generateRandomCode(7) + '.com',
         description: this.generateRandomCode(20),
         code: this.generateRandomCode(8),
         status: 'pending'

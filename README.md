@@ -8,7 +8,8 @@ Body contains
 
 Response: JSON format
 {
-  siteName: (string) site name,
+  id: (number) promo code id,
+  serviceName: (string) service name,
   description: (string) description,
   code: (string) promo code,
   status?: (string) pending or active
