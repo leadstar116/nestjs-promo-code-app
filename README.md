@@ -16,7 +16,8 @@ Response: JSON format
 }
 
 ### Live Demo
-
+https://nestjs-promo-code-app.herokuapp.com/api/
+You can check api by following above link.
 
 ## Installation
 
